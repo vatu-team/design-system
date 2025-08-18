@@ -1,0 +1,27 @@
+{
+    "phpVersion": "8.3",
+    "env": {
+        "development": {
+            "port": 8080,
+            "mysqlPort": 13306
+        },
+        "tests": {
+            "port": 8181,
+            "mysqlPort": 13307
+        }
+    },
+    "plugins": [
+      "."
+    ],
+    "themes": [],
+    "config": {
+        "AUTOMATIC_UPDATER_DISABLED": true,
+        "DISALLOW_FILE_EDIT": true,
+        "DISALLOW_FILE_MODS": true,
+        "DISABLE_WP_CRON": true,
+        "WP_DEFAULT_THEME": "twentytwentyfive",
+        "WP_DEVELOPMENT_MODE": "all",
+        "WP_ENVIRONMENT_TYPE": "local"
+    },
+    "mappings": {}
+}
