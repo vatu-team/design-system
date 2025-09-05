@@ -44,9 +44,10 @@ final class StyleGuideContent extends PostContentType
 			show_in_admin_bar: false,
 			show_ui: true,
 			rewrite: [
-				'slug'       => 'style-guide',
+				'slug'       => 'design-system/style-guide',
 				'with_front' => false,
-			]
+			],
+			has_archive: 'design-system/style-guide'
 		) )->toArray();
 	}
 }

@@ -44,9 +44,10 @@ final class BlocksContent extends PostContentType
 			show_in_admin_bar: false,
 			show_ui: true,
 			rewrite: [
-				'slug'       => 'style-guide',
+				'slug'       => 'design-system/blocks',
 				'with_front' => false,
-			]
+			],
+			has_archive: 'design-system/blocks'
 		) )->toArray();
 	}
 }
