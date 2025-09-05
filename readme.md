@@ -62,6 +62,7 @@ composer require vatu/design-system --dev
 - `npm run wp-env start -- --xdebug` – Start the development environment with xDebug configured
 - `npm run wp-env stop` – Stop the development environment
 - `npm run wp-env distroy` – Distroy the development environment
+- `npm run wp-env run {env} wp shell` -
 
 ## Reporting Issues
 
@@ -81,4 +82,4 @@ Vatu - [hello@vatu.dev](hello@vatu.dev)
 ## Copyright
 
 © 2025 Vatu Limited and licensed for use under the terms of the
-MIT License (MIT). Please see [LICENSE](https://github.com/vatu-team/design-system/blob/trunk/license.txt) for more information.
+GPL-3.0 License. Please see [LICENSE](https://github.com/vatu-team/design-system/blob/trunk/license.txt) for more information.
