@@ -62,7 +62,7 @@ final class ContentSettings
 		private array $supports = [ 'title', 'editor' ],
 		private null|string $register_meta_box_cb = null,
 		private array $taxonomies = [],
-		private bool $has_archive = false,
+		private bool|string $has_archive = false,
 		private bool|array $rewrite = false,
 		private bool $can_export = true,
 		private bool $delete_with_user = false,
