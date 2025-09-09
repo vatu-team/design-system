@@ -15,14 +15,19 @@
             ]
         }
     ],
-    "require-dev": {
-        "vatu/dev-tools": "dev-main",
-        "slevomat/coding-standard": "^8.18"
+    "require": {
+        "php-stubs/wordpress-stubs": "^6.8",
+        "php-stubs/wp-cli-stubs": "^2.12",
+        "phpcompatibility/php-compatibility": "dev-develop as 9.99.99",
+        "vatu/dev-tools": "^2.0",
+        "wp-coding-standards/wpcs": "^2.3",
+        "wptrt/wpthemereview": "^0.2.1"
     },
     "config": {
         "allow-plugins": {
             "phpstan/extension-installer": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "composer/installers": true
         }
     },
     "scripts": {}

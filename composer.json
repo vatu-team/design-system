@@ -1,7 +1,7 @@
 {
     "name": "vatu/design-system",
     "type": "wordpress-plugin",
-    "license": "GPL-3.0",
+    "license": "GPL-3.0-or-later",
     "description": "Vatu WordPress Plugin for displaying elements from a websites design system.",
     "homepage": "https://vatu.dev",
     "readme": "https://github.com/vatu-team/design-system/blob/trunk/readme.md",
