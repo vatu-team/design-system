@@ -43,6 +43,8 @@ const HOOK_PREFIX = 'Vatu';
 
 const BLOCK_DIR = __DIR__ . '/build';
 
+const TEMPLATE_DIR = __DIR__ . '/templates';
+
 /**
  * Autoloader.
  */

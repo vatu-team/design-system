@@ -28,5 +28,6 @@ final class PatternsProvider extends ServiceProvider
 	protected array $service_collection = [
 		PatternsContentRegistrar::class,
 		PatternsContentMenu::class,
+		PatternsArchiveTemplate::class,
 	];
 }

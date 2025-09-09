@@ -20,5 +20,6 @@ namespace {
 }
 
 namespace Vatu\DesignSystem {
-	const BLOCK_DIR = '/example';
+	const BLOCK_DIR    = './example';
+	const TEMPLATE_DIR = './templates';
 }

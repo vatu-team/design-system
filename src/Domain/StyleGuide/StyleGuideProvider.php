@@ -28,5 +28,6 @@ final class StyleGuideProvider extends ServiceProvider
 	protected array $service_collection = [
 		StyleGuideContentRegistrar::class,
 		StyleGuideContentMenu::class,
+		StyleGuideArchiveTemplate::class,
 	];
 }

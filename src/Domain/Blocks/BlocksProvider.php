@@ -28,5 +28,6 @@ final class BlocksProvider extends ServiceProvider
 	protected array $service_collection = [
 		BlocksContentRegistrar::class,
 		BlocksContentMenu::class,
+		BlocksArchiveTemplate::class,
 	];
 }
