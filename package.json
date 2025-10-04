@@ -16,7 +16,7 @@
         "start": "run-s 'start:scripts:blocks'",
         "build": "run-s 'build:scripts:blocks'",
         "wp-env": "wp-env",
-        "composer": "wp-env run composer"
+        "composer": "wp-env run cli --env-cwd=wp-content/plugins/design-system composer"
     },
     "devDependencies": {
         "@wordpress/compose": "^7.31.0",

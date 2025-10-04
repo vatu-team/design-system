@@ -63,6 +63,7 @@ composer require vatu/design-system --dev
 - `npm run wp-env stop` – Stop the development environment
 - `npm run wp-env distroy` – Distroy the development environment
 - `npm run wp-env run {env} wp shell` -
+- `npm run composer -- {command}` – Run composer commands within the development environment
 
 ## Reporting Issues
 
