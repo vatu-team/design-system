@@ -29,5 +29,6 @@ final class StyleGuideProvider extends ServiceProvider
 		StyleGuideContentRegistrar::class,
 		StyleGuideContentMenu::class,
 		StyleGuideArchiveTemplate::class,
+		StyleGuideSingleTemplate::class,
 	];
 }

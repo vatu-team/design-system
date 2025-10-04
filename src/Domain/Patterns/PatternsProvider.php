@@ -29,5 +29,6 @@ final class PatternsProvider extends ServiceProvider
 		PatternsContentRegistrar::class,
 		PatternsContentMenu::class,
 		PatternsArchiveTemplate::class,
+		PatternsSingleTemplate::class,
 	];
 }

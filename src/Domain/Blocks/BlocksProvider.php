@@ -29,5 +29,6 @@ final class BlocksProvider extends ServiceProvider
 		BlocksContentRegistrar::class,
 		BlocksContentMenu::class,
 		BlocksArchiveTemplate::class,
+		BlocksSingleTemplate::class,
 	];
 }
