@@ -16,7 +16,9 @@
         "start": "run-s 'start:scripts:blocks'",
         "build": "run-s 'build:scripts:blocks'",
         "wp-env": "wp-env",
-        "composer": "wp-env run cli --env-cwd=wp-content/plugins/design-system composer"
+        "composer": "wp-env run cli --env-cwd=wp-content/plugins/design-system composer",
+        "integration-unit": "wp-env run tests-cli --env-cwd=wp-content/plugins/design-system ./tools/vendor/bin/phpunit --testsuite=unit",
+        "integration-test": "wp-env run tests-cli --env-cwd=wp-content/plugins/design-system ./tools/vendor/bin/phpunit -c ./phpintegration.dist.xml --testsuite=integration"
     },
     "devDependencies": {
         "@wordpress/compose": "^7.31.0",

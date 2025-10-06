@@ -62,7 +62,9 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Vatu\\DesignSystem\\Tests\\Unit\\": "tests/php/Unit"
+            "Vatu\\Wordpress\\Tests\\TestCase\\": "tests/php",
+            "Vatu\\DesignSystem\\Tests\\Unit\\": "tests/php/Unit",
+            "Vatu\\DesignSystem\\Tests\\Integration\\": "tests/php/Integration"
         }
     },
     "extra": {

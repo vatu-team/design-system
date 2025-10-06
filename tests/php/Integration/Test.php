@@ -7,7 +7,7 @@
  * @author    Vatu <hello@vatu.dev>
  * @link      https://vatu.dev/
  * @license   GNU General Public License v3.0
- * @copyright 2022-2024 Vatu Ltd.
+ * @copyright 2022-2025 Vatu Ltd.
  */
 
 declare(strict_types=1);
@@ -16,15 +16,16 @@ namespace Vatu\Wordpress\Tests\Integration;
 
 use Vatu\Wordpress\Tests\TestCase;
 
-class Test extends TestCase
-{
+class Test extends TestCase {
 	/**
 	 * Test Suite is running.
 	 *
 	 * @coversNothing
 	 */
-	public function testIsRun(): void
+	public function testWordpressIsRunning(): void
 	{
-		self::assertTrue( true );
+		self::assertTrue(
+			\has_action( 'wp_loaded' )
+		);
 	}
 }

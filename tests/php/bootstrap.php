@@ -16,4 +16,4 @@ $root_dir = dirname( dirname( __DIR__ ) );
 
 require_once $root_dir . '/tools/vendor/autoload.php';
 require_once $root_dir . '/vendor/autoload.php';
-require_once $root_dir . '/tests/php/Unit/TestCase.php';
+require_once $root_dir . '/tests/php/TestCase.php';

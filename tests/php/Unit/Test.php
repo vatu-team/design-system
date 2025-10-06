@@ -14,6 +14,8 @@ declare(strict_types=1);
 
 namespace Vatu\DesignSystem\Tests\Unit;
 
+use Vatu\Wordpress\Tests\TestCase;
+
 class Test extends TestCase
 {
 	/**

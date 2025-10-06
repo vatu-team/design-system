@@ -12,7 +12,7 @@
 
 declare(strict_types=1);
 
-namespace Vatu\DesignSystem\Tests\Unit;
+namespace Vatu\Wordpress\Tests;
 
 use Brain\Monkey;
 use Mockery\Adapter\Phpunit\MockeryPHPUnitIntegration;
