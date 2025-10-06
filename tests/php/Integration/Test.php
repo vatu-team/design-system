@@ -16,7 +16,8 @@ namespace Vatu\Wordpress\Tests\Integration;
 
 use Vatu\Wordpress\Tests\TestCase;
 
-class Test extends TestCase {
+class Test extends TestCase
+{
 	/**
 	 * Test Suite is running.
 	 *
