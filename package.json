@@ -24,7 +24,7 @@
         "@wordpress/compose": "^7.31.0",
         "@wordpress/create-block": "^4.77.0",
         "@wordpress/env": "^10.32.0",
-        "@wordpress/plugins": "^7.33.0",
+        "@wordpress/plugins": "^7.34.0",
         "@wordpress/scripts": "^30.27.0",
         "npm-run-all": "^4.1.5",
         "path": "^0.12.7",
