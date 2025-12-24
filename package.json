@@ -21,7 +21,7 @@
         "integration-test": "wp-env run tests-cli --env-cwd=wp-content/plugins/design-system ./tools/vendor/bin/phpunit -c ./phpintegration.dist.xml --testsuite=integration"
     },
     "devDependencies": {
-        "@wordpress/compose": "^7.31.0",
+        "@wordpress/compose": "^7.37.0",
         "@wordpress/create-block": "^4.79.0",
         "@wordpress/env": "^10.36.0",
         "@wordpress/plugins": "^7.36.0",
