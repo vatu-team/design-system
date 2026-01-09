@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "893d13b2c38a7a9c37d28b13057d6f54",
+    "content-hash": "e6e8af52e7de6ea8d9faa998c62e6175",
     "packages": [
         {
             "name": "captainhook/hook-installer",
@@ -1125,16 +1125,16 @@
         },
         {
             "name": "thoughtsideas/wp-infrastructure",
-            "version": "0.2.0",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thoughtsideas/wp-infrastructure.git",
-                "reference": "4f71268b0cd6798b615120407c27c310b37689fb"
+                "reference": "5339ca94ca21d249fc4d4bbec7ab1000b8d7e8b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thoughtsideas/wp-infrastructure/zipball/4f71268b0cd6798b615120407c27c310b37689fb",
-                "reference": "4f71268b0cd6798b615120407c27c310b37689fb",
+                "url": "https://api.github.com/repos/thoughtsideas/wp-infrastructure/zipball/5339ca94ca21d249fc4d4bbec7ab1000b8d7e8b5",
+                "reference": "5339ca94ca21d249fc4d4bbec7ab1000b8d7e8b5",
                 "shasum": ""
             },
             "require": {
@@ -1142,8 +1142,8 @@
                 "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
             },
             "require-dev": {
-                "captainhook/captainhook": "^5.23",
-                "ergebnis/composer-normalize": "^2.42",
+                "captainhook/captainhook": "^5.27",
+                "ergebnis/composer-normalize": "^2.48",
                 "madewithlove/license-checker": "^1.5",
                 "phly/keep-a-changelog": "^2.12",
                 "roave/security-advisories": "dev-latest"
@@ -1185,9 +1185,9 @@
             ],
             "support": {
                 "issues": "https://github.com/thoughtsideas/wp-infrastrucuture/issues/",
-                "source": "https://github.com/thoughtsideas/wp-infrastructure/tree/0.2.0"
+                "source": "https://github.com/thoughtsideas/wp-infrastructure/tree/0.2.1"
             },
-            "time": "2025-01-05T21:33:14+00:00"
+            "time": "2026-01-08T09:07:38+00:00"
         }
     ],
     "packages-dev": [
