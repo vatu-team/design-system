@@ -22,7 +22,7 @@
     },
     "devDependencies": {
         "@wordpress/compose": "^7.39.0",
-        "@wordpress/create-block": "^4.82.0",
+        "@wordpress/create-block": "^4.83.0",
         "@wordpress/env": "^10.39.0",
         "@wordpress/plugins": "^7.39.0",
         "@wordpress/scripts": "^31.4.0",
