@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "php-stubs/wordpress-stubs": "^6.8",
+        "php-stubs/wordpress-stubs": "^6.9",
         "php-stubs/wp-cli-stubs": "^2.12",
         "phpcompatibility/php-compatibility": "dev-develop as 9.99.99",
         "vatu/dev-tools": "^2.0",
