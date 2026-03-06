@@ -16,6 +16,9 @@ namespace Vatu\DesignSystem\Infrastructure\Content;
 
 interface ContentType
 {
+	/**
+	 * @phpstan-return lowercase-string&non-empty-string
+	 */
 	public function getContentType(): string;
 
 	/**
