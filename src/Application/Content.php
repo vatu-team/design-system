@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Register WordPress Meta
+ * Register WordPress Content Types
  *
 
  * @package   Vatu\Wordpress\Plugin\Vatu\DesignSystem
