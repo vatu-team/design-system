@@ -4,6 +4,13 @@
 
 ## Introduction
 
+## Installation
+
+It is reccommended to install this as a development dependency via Composer. This will prevent the pages from being publicly accessible on your production site.
+
+```
+composer require vatu/design-system --dev
+```
 
 ## [Documentation](https://github.com/vatu-team/design-system/blob/trunk/docs/readme.md)
 
