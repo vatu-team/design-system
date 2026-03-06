@@ -16,6 +16,9 @@ namespace Vatu\DesignSystem\Infrastructure\Content;
 
 abstract class PostContentType implements ContentType
 {
+	/**
+	 * @var lowercase-string&non-empty-string
+	 */
 	protected string $content_type = 'post';
 
 	public function getContentType(): string
